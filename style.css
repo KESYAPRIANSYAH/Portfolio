@@ -1,0 +1,695 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.dark {
+  background-color: white;
+  color: black;
+}
+body {
+  overflow-x: hidden;
+  background-color: #041e44;
+  color: white;
+}
+
+.pdf {
+  margin-top: 40px;
+}
+
+/* heosection */
+.hero {
+  height: 100vh;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+}
+h2 {
+  margin: 20px 0px 20px;
+  font-size: 75px;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.profil {
+  position: absolute;
+  right: 5%;
+  margin-top: 40px;
+}
+.profil2 {
+  display: none;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+.typing > * {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingAnim 3s steps(27);
+}
+
+@keyframes typingAnim {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+h3 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4 {
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newslatter button {
+  width: 250px;
+  height: 50px;
+  margin: 5px;
+  opacity: 90%;
+  background-color: #00a99d;
+  border-color: transparent;
+  color: white;
+  max-width: 100%;
+  cursor: pointer;
+  border-radius: 5em;
+}
+.newslatter button:hover {
+  opacity: 80%;
+  color: white;
+}
+/* akhir herosection */
+
+/* awal about */
+
+#about {
+  background-color: rgba(165, 202, 255, 0.2);
+  border-radius: 3%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.about {
+  width: 100%;
+  padding: 100px 0px;
+}
+.lottie {
+  z-index: -1;
+}
+.lottie2 {
+  display: none;
+}
+.about-text {
+  width: 550px;
+}
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.about-text h6 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+.about-text p {
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+.ABTN {
+  background-color: #08aea3;
+  height: 40px;
+  border-color: transparent;
+  color: white;
+  font: bold;
+  border-radius: 5em;
+  width: 100px;
+}
+.ABTN:hover {
+  background-color: #041e44;
+}
+/* akhir about */
+
+/* my sklis */
+.title h2 {
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.skil {
+  padding-top: 50px;
+}
+.skil h1 {
+  margin-top: 50px;
+}
+
+#card {
+  padding-bottom: 100px;
+  opacity: 90%;
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#card img {
+  width: 180px;
+  height: auto;
+  padding: 15px;
+  margin: 8px;
+}
+.card {
+  height: 300px;
+  width: 320px;
+  padding: 20px 35px;
+  background: white;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: inset 3px 3px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.card p {
+  color: #000;
+  font-size: 20px;
+}
+
+.card h5 {
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+/* akhir my sklis */
+
+/* kesy  */
+
+.sertif {
+  padding-top: 100px;
+  border-radius: 4%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.sertifikat {
+  margin-top: 100px;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ser {
+  height: 450px;
+  border-radius: 10px;
+  width: 500px;
+  background: white;
+  margin: 25px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 3px 3px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.sertif img {
+  width: 99%;
+  height: 75%;
+}
+
+.sertisi {
+  background-color: rgba(165, 202, 255, 0.2);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.sertisi h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 20px;
+}
+/* kesy  */
+/* my projects */
+#MyProjects {
+  padding-top: 100px;
+  border-radius: 4%;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.MyProjects {
+  margin-top: 100px;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.project {
+  height: 400px;
+  width: 450px;
+  background: white;
+  border-radius: 20px;
+  margin: 17px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 3px 3px 4px 4px rgba(0, 0, 0, 0.4);
+}
+.project img {
+  width: 100%;
+  height: auto;
+}
+.isi {
+  background-color: #041e44;
+  opacity: 90%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.isi h2 {
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.isi p {
+  margin-left: 20px;
+  color: white;
+  font-size: 15px;
+}
+.isi button {
+  margin-left: 20px;
+  background-color: #00a99d;
+  border-color: gray;
+  margin-top: 25px;
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+}
+.isi button:hover {
+  background-color: whitesmoke;
+  color: #101010;
+  cursor: pointer;
+}
+.react {
+  z-index: -1;
+  position: absolute;
+  margin-left: 250px;
+}
+/* kontak */
+.contact {
+  padding-top: 200px;
+}
+.container {
+  padding-top: 100px;
+  background: #08071d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("bg.png") no-repeat center center/cover;
+}
+
+.container form {
+  width: 670px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  flex-wrap: wrap;
+}
+
+.container form h1 {
+  font-weight: 500;
+  margin-top: 20px;
+  width: 500px;
+  text-align: center;
+}
+
+.container form input {
+  width: 290px;
+  height: 40px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  background: none;
+  border-bottom: 2px solid rgb(160, 153, 153);
+}
+
+.container form #lastName,
+.container form #mobile {
+  margin-left: 20px;
+}
+
+.container form h4 {
+  font-weight: 300;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.container form textarea {
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgb(160, 153, 153);
+  color: #fff;
+  font-weight: 200;
+  font-size: 15px;
+  padding: 10px;
+  outline: none;
+  min-width: 600px;
+  max-width: 600px;
+  min-height: 80px;
+  max-height: 80px;
+}
+
+textarea::-webkit-scrollbar {
+  width: 1em;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgba(194, 194, 194, 0.713);
+}
+
+.container form #button {
+  border: none;
+  color: white;
+  background-color: #00a99d;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 20px;
+  width: 100px;
+  padding: 0;
+  margin-right: 500px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.container form #button:hover {
+  opacity: 0.7;
+}
+/* akhir kontak */
+
+footer {
+  width: 100vw;
+  bottom: 0px;
+}
+footer div {
+  background-color: #4478e3;
+  margin: -5px 0px 0px 0px;
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+}
+.i {
+  padding-bottom: 20px;
+}
+svg {
+  width: 100%;
+}
+.arrow {
+  stroke-width: 0.3px;
+  stroke: yellow;
+}
+.topball {
+  animation: ball 1.5s ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 0.3s;
+  cursor: pointer;
+}
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count: infinite;
+  fill: #4478e3;
+}
+.drop {
+  fill: transparent;
+  animation: drop 5s ease infinite normal;
+  stroke: #4478e3;
+  stroke-width: 0.5;
+  opacity: 0.6;
+  transform: translateY(80%);
+}
+.drop1 {
+  transform-origin: 20px 3px;
+}
+.drop2 {
+  animation-delay: 3s;
+  animation-duration: 3s;
+  transform-origin: 25px 3px;
+}
+.drop3 {
+  animation-delay: -2s;
+  animation-duration: 3.4s;
+  transform-origin: 16px 3px;
+}
+.gooeff {
+  filter: url(#goo);
+}
+#wave2 {
+  animation-duration: 5s;
+  animation-direction: reverse;
+  opacity: 0.6;
+}
+#wave3 {
+  animation-duration: 7s;
+  opacity: 0.3;
+}
+@keyframes drop {
+  0% {
+    transform: translateY(80%);
+    opacity: 0.6;
+  }
+  80% {
+    transform: translateY(80%);
+    opacity: 0.6;
+  }
+  90% {
+    transform: translateY(10%);
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateY(0%) scale(1.5);
+    stroke-width: 0.2;
+    opacity: 0;
+  }
+}
+@keyframes wave {
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes ball {
+  to {
+    transform: translateY(20%);
+  }
+}
+
+/* responsive mobile */
+@media screen and (max-width: 800px) {
+  .hero {
+    height: 420px;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+  }
+  .profil {
+    display: none;
+  }
+  .profil2 {
+    padding-top: 80px;
+    display: block;
+  }
+  .content {
+    top: 300px;
+    left: 5%;
+    transform: translateY(-50%);
+  }
+  h2 {
+    margin: 20px 0px 20px;
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+  h4 {
+    letter-spacing: 2px;
+    font-size: 10px;
+  }
+  h6 {
+    font-size: 6pxpx;
+  }
+  .newslatter button {
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    opacity: 90%;
+
+    border-color: grey;
+    color: white;
+    font-size: bold;
+    max-width: 100%;
+    cursor: pointer;
+    border-radius: 1em;
+  }
+  #about {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .about {
+    width: 100%;
+    padding: 100px 0px;
+  }
+  .lottie {
+    display: none;
+  }
+  .lottie2 {
+    display: block;
+    z-index: -1;
+    width: 2px;
+    height: auto;
+  }
+
+  .about-text {
+    margin-left: 150px;
+    width: 550px;
+  }
+
+  .about-text h6 {
+    font-size: 20px;
+  }
+  .about-text h5 {
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .about-text p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .ABTN {
+    height: 30px;
+
+    width: 60px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+
+  .react {
+    z-index: -1;
+    position: absolute;
+    margin-left: 150px;
+  }
+  .isi h2 {
+    font-size: 15px;
+  }
+  .isi p {
+    font-size: 10px;
+  }
+  .isi button {
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+  }
+  .contact {
+    padding-top: 50px;
+  }
+  .cont1 {
+    display: none;
+  }
+  .container form {
+    width: 330px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    flex-wrap: wrap;
+  }
+  .container form h1 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+  }
+
+  .container form input {
+    width: 129px;
+    height: 60px;
+  }
+  .container form #button {
+    background: #00a99d;
+    border-radius: 50px;
+    font-size: 10px;
+    width: 50px;
+    height: 30px;
+    margin-right: 200px;
+  }
+  .container form textarea {
+    min-width: 300px;
+    max-width: 400px;
+    min-height: 20px;
+    max-height: 40px;
+  }
+  .container form h4 {
+    width: 300px;
+  }
+  footer div {
+    font-size: 15px;
+  }
+  .pernyataan {
+    display: none;
+  }
+}
+
+.ser {
+  height: auto;
+}
+
+/* akhir responsive mobile  */
+
+@media screen and (max-width: 768px) {
+  .sertisi h2 {
+    font-size: 10px;
+  }
+}
